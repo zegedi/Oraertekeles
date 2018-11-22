@@ -1,0 +1,76 @@
+/* GLOBAL STUFF */
+body {
+   background-color: #93ce82;
+   overflow: hidden;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+   justify-self: center;
+   border: 3px solid white;
+   border-radius: 3px;
+   text-decoration: none;
+   font-size: 30px;
+   margin: 20px;
+   color: black;
+   transition: 0.5s background-color;
+   padding: 10px 20px;
+}
+
+.button:hover {
+   background-color: white;
+}
+
+h1 {
+   text-align: center;
+   font-size: 50px;
+}
+
+#container {
+   padding: 20px;
+   max-width: 1200px;
+   margin: auto;
+   overflow: hidden;
+   display: grid;
+   grid-auto-columns: auto;
+   justify-content: center;
+   align-content: center;
+}
+
+footer {
+   background-color: #e1f1dc;
+   box-shadow: -2px 0 5px black; 
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   padding: 15px;
+   text-align: center;
+}
+
+
+
+/* INDEX.PHP */
+#results {
+   margin: 40px 0 10px 0;
+}
+
+#results #heading td {
+   background-color: #c8c8c8;
+}
+
+#results, #results td {
+   background-color: #e1f1dc;
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+
+#results td {
+   padding: 5px 15px;
+}
